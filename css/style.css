@@ -1,6 +1,28 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+
+.accordion .card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: transparent;	
+	border: none;	
+}
+
+.accordion .card .card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: transparent;	
+	border-bottom: none;
+}
+
+.accordion .btn-link {
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
 .nav-belter{
   margin-left: 5px;
 }
