@@ -57,17 +57,18 @@
 }
 
 .footer {
-  background-color: #A26668;
+  background-image: linear-gradient(#A26668,#A35863, #8D4B6A);
   color: #f5f5f5;
 }
 
 .footer  .list-group-item {
-  font-size: 13px;
-	position: relative;
+  position: relative;
 	display: block;
 	margin-bottom: -1px;
   background-color: transparent;
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -84,6 +85,10 @@
 .footer a:hover{
   color: #f5f5f5;
   text-decoration: underline;
+}
+
+.footer a i:hover{
+  text-decoration: none;
 }
 
 .footer > .container {
